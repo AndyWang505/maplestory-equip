@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+
+footer {
+  background-image: url('/images/footer/cave.foothold1.1.0.png');
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+}
