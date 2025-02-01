@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import Layout from '@/components/Layout'
+import Layout from '@/src/components/Layout'
 
 interface Equip {
   id: number
