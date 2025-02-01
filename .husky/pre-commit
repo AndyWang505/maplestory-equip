@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no-install prettier --write .
+npx --no-install eslint --fix .
+# .husky/pre-commit
+npx --no-install lint-staged
+
+# .husky/pre-push
+npm test
